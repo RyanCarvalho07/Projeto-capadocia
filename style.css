@@ -1,0 +1,38 @@
+
+
+
+html{
+    background-color: #0a5e0c;
+}
+
+.letreiro{
+    display: inline-flex;
+    font-family:'Sigmar', sans-serif ;
+    background:url(baloes2.jpg);
+    font-size: 8rem;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #5b728a54;
+    animation: move 30s linear infinite;
+    letter-spacing: .3rem;
+}
+
+ @keyframes move{
+    from{
+        background-position: 0 80%;
+    }
+    to{
+        background-position: 100% 50%;
+    }
+ }
+
+ .ca{
+    color:black ;
+    font-size: 20px;
+ }
+
+ p{
+    font-size: 20px;
+    color: black;
+    
+ }
